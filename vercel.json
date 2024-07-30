@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {
     "version": 2,
     "builds": [
@@ -18,10 +17,3 @@
     ]
   }
   
-=======
-{ 
-    "version": 2,
-    "builds": [{"src" : "index.ts", "use": "@vercel/node"}],
-    "routes": [{ "src" : "/(.*)", "dest": "index.ts"}]
-}
->>>>>>> origin/main
