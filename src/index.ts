@@ -9,7 +9,7 @@ const app = express();
 const port = process.env.BACKEND_PORT || 4000;
 
 app.use(express.json());
-// app.use('/api', userRoutes);
+app.use('/api', userRoutes);
 
 
 app.get('/some', (req:any, res:any) => {
