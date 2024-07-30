@@ -8,8 +8,8 @@ const port = process.env.BACKEND_PORT || 4000;
 app.use(express.json());
 app.use('/api', userRoutes);
 
-app.get('/some', (req:any, res:any) => {
-  res.send('Hello from some route');
+app.get('/nayansome', (req:any, res:any) => {
+  res.send('Hello from internal some route');
 });
 
 // Basic error handling middleware
