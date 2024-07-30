@@ -23,7 +23,7 @@ router.get('/get-all-ntp', getAllNtp);
 router.get('/get-all-routes', getAllRoutes);
 router.get('/get-route-wise-customer', getRouteWiseCustomer);
 router.get('/get-all-customers', getAllCustomers);
-// router.get('/', message);
+router.get('/', message);
 
 // export default router;
 module.exports = router;
